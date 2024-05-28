@@ -31,8 +31,12 @@ These files are available at THES REPSOTRY.
 **Transform and clean data**
 
 Remove duplicate from *SalesOrderNumber* columns in  Sales Table .
-
-        
+Prosses Data
+**Modling data**
+**Add New Column**
+ usig powerqury editor in power bi We will Creat new columns 
+  *Yearly sales by colour*  = ADDCOLUMNS(Sales,"Year",RELATED('Date'[Year]))
+  
 
 Step 5: Profile data
 Examine the data in distribution, quality and profile. 

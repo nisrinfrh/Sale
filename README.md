@@ -12,7 +12,7 @@ You gained valuable knowledge on planning, documentation, connectors, data profi
 
 error handling, using groups, and optimizing data types. In this step-by-step exercise, you have the opportunity to apply best practices when importing datasets in Power BI.
 
-### Busnes Tsak
+### Busnهs Tsak
 
 Adventure Works is afictional company   which sells various consumer products. As the business expands,
 

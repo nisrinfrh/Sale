@@ -1,27 +1,40 @@
 # Sale
-Introduction
-As a data analyst, you play a vital role in analyzing large datasets to gain insights and improve business operations. Microsoft Power Query is an essential tool in your workflow, allowing you to transform and integrate data from various sources. At this point, you should have a good understanding of the best practices when using Microsoft Power Query and its practical applications. You gained valuable knowledge on planning, documentation, connectors, data profiling, performance, error handling, using groups, and optimizing data types. In this step-by-step exercise, you have the opportunity to apply best practices when importing datasets in Power BI.
 
-Case study
-You are working as a data analyst at Adventure Works which sells various consumer products. As the business expands, the management team wants to gain deeper insights into their sales performance across different regions. You use Power BI to import and analyze the sales data.
+### Introduction
 
-The company uses CSV files containing the Adventure Works company sales, reseller and product data. You will be applying the best practices for importing data.
+As a data analyst, you play a vital role in analyzing large datasets to gain insights and improve business operations.
 
-By the end of this activity, you’ll have a good understanding of how to apply best practices when importing datasets into Power BI.
+Microsoft Power Query is an essential tool in your workflow, allowing you to transform and integrate data from various sources.
 
-Instructions
-Create a new Power BI project called Exercise – Import a dataset with Best Practices. Follow the prompts below to complete the exercise.
+At this point, you should have a good understanding of the best practices when using Microsoft Power Query and its practical applications. 
+
+You gained valuable knowledge on planning, documentation, connectors, data profiling, performance, 
+
+error handling, using groups, and optimizing data types. In this step-by-step exercise, you have the opportunity to apply best practices when importing datasets in Power BI.
+
+### Busnes Tsak
+
+Adventure Works is afictional company   which sells various consumer products. As the business expands,
+
+the management team wants to gain deeper insights into their sales performance across different regions. You use Power BI to import and analyze the sales data.
+
+The company uses CSV files containing the Adventure Works company sales, reseller ,region and product data. 
+
+### PREPARE DATA
 
 Step 1: Download the CSV files
-Download the Sales.csv, Product.csv and Reseller.csv  files, which will be used in this exercise. These files are available at the top of this article.
 
-Sales table
+Download the Sales.csv, Product.csv ,Date.CSV and Reseller.csv  files,
+
+These files are available at THES REPSOTRY.
+
 Step 2: Open the Power Query editor
+
 Open the Power Query Editor and import your datasets, Sales, Product, and Reseller using the Text/CSV option.
 Tip: If the columns do not appear correctly, ensure that the Delimiter is set to Tab.
 
-Delimiter is set to Tab in the data import prompt.
 Step 3: Optimize data extraction
+
 To optimize data extraction, apply filters to retrieve the sales data for the past five years only.
 
 Select the OrderDate column, select the down arrow at the right side of the column and select the Date Filters menu. 

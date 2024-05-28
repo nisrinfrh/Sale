@@ -28,32 +28,11 @@ Download the Sales.csv, Product.csv ,Date.CSV and Reseller.csv  files,
 
 These files are available at THES REPSOTRY.
 
-Step 2: Open the Power Query editor
+**Transform and clean data**
 
-Open the Power Query Editor and import your datasets, Sales, Product, and Reseller using the Text/CSV option.
-Tip: If the columns do not appear correctly, ensure that the Delimiter is set to Tab.
+Remove duplicate from *SalesOrderNumber* columns in  Sales Table .
 
-Step 3: Optimize data extraction
-
-To optimize data extraction, apply filters to retrieve the sales data for the past five years only.
-
-Select the OrderDate column, select the down arrow at the right side of the column and select the Date Filters menu. 
-
-Then select Custom Filter on the bottom of the list to select the last five years' records.
-
-In the Keep rows where the 'OrderDate' field boxes, select “is in the previous,” “5” and “years” in the respective sections to filter the dataset.
-
-Filter Rows. Apply one or more filter conditions to the rows in this table.
-Step 4: Transform and clean data
-Using Power Query, transform and clean the data.
-
-Find the empty rows in the OrderDate column
-
-Find the error rows in the ProductKey column
-
-Remove errors in these columns.
-
-           Note the results of performing these operations.
+        
 
 Step 5: Profile data
 Examine the data in distribution, quality and profile. 
@@ -115,6 +94,8 @@ Cleaning data gives you the following benefits:
 Tables are well organized, where users can find the data easily.
 
 Duplicates are removed.
+
+
 
 A complicated column can be split into two, simpler columns.
 

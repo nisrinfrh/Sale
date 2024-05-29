@@ -34,11 +34,14 @@ Remove duplicate from *SalesOrderNumber* columns in  Sales Table .
 Prosses Data
 **Modling data** after transformation
 **Add New Table**
-**Add calculated columns**
+
  usig powerqury editor in power bi We will Creat new columns 
   *Yearly sales by colour*  = ADDCOLUMNS(Sales,"Year",RELATED('Date'[Year]),"Colour",RELATED(Product[colour])
+  **Add calculated columns**
   Add new column to Date Table
   Qtr=QUARTER('Date'[Date])
+ **Add first three leter of month**
+  First Month = LEFT('Date'[Month],3)
 
 Step 5: Profile data
 Examine the data in distribution, quality and profile. 
